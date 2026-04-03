@@ -59,6 +59,7 @@ clusterGroup:
           kind: Route
           jsonPointers:
             - /spec/host
+            - /spec/alternateBackends
 
     pattern-secrets:
       name: pattern-secrets
